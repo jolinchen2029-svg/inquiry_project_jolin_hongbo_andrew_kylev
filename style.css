@@ -1,0 +1,167 @@
+body {
+  background-color: #F5C2C8;
+}
+
+main > body {
+  display: none;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #111111;
+  font-weight: 600;
+}
+
+.navbar-search {
+  flex-grow: 0;
+}
+
+.navbar-search input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Footer styles */
+.site-footer {
+  background: #FFE4E1;
+  padding: 2rem 1.5rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.footer-content h3 {
+  margin: 0;
+}
+
+.footer-links,
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-links a,
+.footer-social a {
+  text-decoration: none;
+  color: #111111;
+}
+
+.footer-note {
+  width: 100%;
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+/* Simple home section */
+
+.simple-home {
+  background: #FFE4E1;
+  color: #111111;
+  font-family: Arial, sans-serif;
+  padding: 3rem 1.5rem;
+}
+
+.simple-home-inner {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+}
+
+.simple-home h1 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  margin: 0 0 1rem;
+}
+
+.simple-home p {
+  max-width: 720px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.9rem 1.4rem;
+  border-radius: 999px;
+  background: #111111;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.button.secondary {
+  background: #f7f5f2;
+  color: #111111;
+  border: 1px solid #111111;
+}
+
+.feature {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background: #FFE4E1;
+  padding: 1.4rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 620px) {
+  .simple-home {
+    padding: 2rem 1rem;
+  }
+}
