@@ -1,5 +1,5 @@
 body {
-  background-color: #F5C2C8;
+  background-color: #fbd3d2;
 }
 
 main > body {
@@ -27,7 +27,7 @@ main > body {
 
 .navbar-links a {
   text-decoration: none;
-  color: #111111;
+  color: white;
   font-weight: 600;
 }
 
