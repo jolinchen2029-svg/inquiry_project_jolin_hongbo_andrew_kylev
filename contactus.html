@@ -1,10 +1,11 @@
-<html>
+<!doctype html>
 <html lang="en">
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
    <title>Document</title>
+
 </head>
 <body>
     <header>
@@ -21,33 +22,41 @@
    </nav>
        </header>
 
-    <div class="pink-bg"> 
-       <h1>CONTACT US</h1>
-       <img src="Screenshot 2026-05-28 10.34.45 AM.png"alt="1">
-    </div>
-    <div class="contact-table">
-       <div class="left">
-         <p class="pink-tt">catch us</p>
-         <h1>GET IN TOUCH</h1>
-         <p>OUR LOCATION</P>
-         <p>11111111</P>
-         <p>Meail us</p>
-         <p>111</p>
-       </div>
-       <div class="right">
-         <h4>ENTER YOUR NAME</h4>
-         <input tupe="text" placeholder="Full Name">
-         <h4>ENTER YOUR EMAIL</h4>
-         <input type="text" placeholder="EMAIL">
-         <h4>ENTER YOUR PHONE</h4>
-         <input type="text" placeholder="Phone">
-         <h4>MESSAGE</h4>
-         <input type="text" placeholder="Type your message here">
-         <button>SEND MESSAGE</button>  
-       </div>  
-   </div>
-  </body>
-  <footer class="site-footer">
+        <div class="pink-bg"> 
+             <h1>CONTACT US</h1>
+             <img src="Screenshot 2026-06-01 10.28.37 AM.png" alt="Contact Us Image">
+        </div>
+
+        <main class="contact-main">
+            <div class="contact-card">
+                <div class="left">
+                    <p class="pink-tt">CATCH US</p>
+                    <h1>GET IN TOUCH</h1>
+                    <h3>OUR LOCATION</h3>
+                    <p>9055 LAS TUNAS DRIVE, TEMPLE CITY, CA 91780, USA</p>
+                    <h3>EMAIL US</h3>
+                    <p>mollyteaintl@mollytea.com</p>
+                </div>
+                <div class="right">
+                    <form class="contact-form" novalidate>
+                        <label class="form-label">ENTER YOUR NAME <span class="required">*</span></label>
+                        <input class="form-input" type="text" placeholder="Full Name">
+
+                        <label class="form-label">ENTER YOUR EMAIL <span class="required">*</span></label>
+                        <input class="form-input" type="email" placeholder="Email">
+
+                        <label class="form-label">ENTER YOUR PHONE <span class="required">*</span></label>
+                        <input class="form-input" type="tel" placeholder="Phone">
+
+                        <label class="form-label">MESSAGE</label>
+                        <textarea class="form-input" rows="6" placeholder="Type your message here..."></textarea>
+
+                        <button class="btn-submit" type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="site-footer">
         <div class="footer-content">
            <h3>MOLLY TEA</h3>
            <div class="footer-links">
@@ -62,6 +71,7 @@
             </div>
              <div class="footer-note"><span id="currentYear">2026</span> MOLLY TEA. ALL RIGHTS RESERVED.
             </div>    
-       </div>    
-   </footer>                
+                </div>    
+        </footer>
+    </body>
 </html>
