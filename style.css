@@ -26,7 +26,7 @@ header {
 nav a {
     text-decoration: none;
     color: #3a2c2e;
-    margin: 0 12px;
+    margin: 12px;
     font-weight: 600;
     transition: color 0.2s ease;
 }
@@ -255,6 +255,29 @@ footer p {
 }
 
 @media (max-width: 880px) {
+    header {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 24px 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .search-bar {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .search-bar input {
+        min-width: 0;
+        flex: 1;
+    }
+
     .hero {
         padding: 36px 20px;
     }
