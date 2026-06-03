@@ -1,69 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molly Tea</title>
     <link rel="stylesheet" href="style.css">
-    <title>MOLLY TEA</title>
 </head>
+
 <body>
-          <header>
-            <nav class="navbar" aria-label="Main navigation">
-            <ul class="navbar-links">
-                <li><a href="#home">MOLLY TEA</a></li>
-                <li><a href="#aboutus">ABOUT US</a></li>
-                <li><a href="#products">PRODUCTS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-            <div class="navbar-search">
-                <input type="text" placeholder="Search..." aria-label="Search the site">
-            </div>
-            </nav>
-        </header>
-        <main>
-    <section class="simple-home">
-      <div class="simple-home-inner">
-        <div class="hero">
-          <h1>MOLLY TEA</h1>
-          <p>JASMINE DELIGHT AT FIRST SIGHT <br>
-            Fresh flower tea, fruit tea, and milk tea made to taste calm, sweet, and modern.</p>
-          <div class="hero-buttons">
-            <a href="#about" class="button">LEARN MORE</a>
-            <a href="#menu" class="button secondary">START AN ORDER</a>
-          </div>
+
+    <!-- Navigation Bar -->
+    <header>
+
+        <h2>MOLLY TEA</h2>
+
+        <nav>
+            <a href="#">About Us</a>
+            <a href="#">Products & Menu</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <form class="search-bar" action="#" method="get">
+            <input type="search" name="q" placeholder="Search Molly Tea" aria-label="Search Molly Tea site">
+            <button type="submit">Submit</button>
+        </form>
+
+    </header>
+
+    <hr>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-text">
+            <h1>MOLLY TEA</h1>
+
+            <h2>Jasmine Delight at First Sight</h2>
+
+            <button>Start An Order</button>
         </div>
-        <div id="about" class="feature">
-          <h2>ABOUT US</h2>
-          <p>Inspired by the elegance of jasmine, Molly Tea leads the way in Chinese floral tea innovation. We travel the world to explore local flower and fruit tea, capturing their unique aromas to craft modern interpretations of eastern tea. Every cup is more than a drink — it is a gift of fragrance, a moment of stillness, and a quiet connection between hearts.</p>
+
+        <div class="hero-image">
+            <img src="images/jasmine-tea.png" alt="Eastern Jasmine Tea — photo credit: Molly Tea premium jasmine milk tea image">
         </div>
-        <div id="menu" class="feature-grid">
-          <article class="card"><h3>Flower Tea</h3><p>Delicate floral flavors like jasmine and rose.</p></article>
-          <article class="card"><h3>Fruit Tea</h3><p>Fresh fruit drinks for sweet and cool refreshment.</p></article>
-          <article class="card"><h3>Milk Tea</h3><p>Creamy milk tea made smooth and gentle.</p></article>
-        </div>
-        <div id="contact" class="feature">
-          <h2>Need help?</h2>
-          <p>Ask us about tea, locations, or how to order your favorite drink.</p>
-        </div>
-      </div>
+
     </section>
-        </main>
-        <footer class="site-footer">
-            <div class="footer-content">
-                <h3>MOLLY TEA</h3>
-                <div class="footer-links">
-                    <a href="#aboutus">ABOUT US</a> |
-                    <a href="#products">PRODUCT & MENU</a> |
-                    <a href="#contact">CONTACT</a>
-                </div>
-                <div class="footer-social">
-                    <a href="https://facebook.com" target="_blank">Facebook</a> |
-                    <a href="https://twitter.com" target="_blank">Twitter</a> |
-                    <a href="https://instagram.com" target="_blank">Instagram</a>
-                </div>
-            <div class="footer-note">
-                &copy; <span id="currentYear">2026</span> MOLLY TEA. ALL RIGHTS RESERVED.
+
+    <hr>
+
+    <!-- About Section -->
+    <section class="about">
+
+        <h2>ABOUT US</h2>
+
+        <p>
+            Inspired by the elegance of jasmine, Molly Tea leads the way in
+            Chinese floral tea innovation. We travel the world to explore
+            local flower and fruit tea, capturing their unique aromas to
+            create modern interpretations of Eastern tea.
+        </p>
+
+        <button>Learn More</button>
+
+    </section>
+
+    <hr>
+
+    <!-- Product Section -->
+    <section class="products">
+
+        <h2>ABOUT THE PRODUCT</h2>
+
+        <p>
+            Rooted in premium Eastern teas, we explore the infinite
+            possibilities of Eastern tea culture.
+        </p>
+
+        <button>Start An Order</button>
+
+        <div class="product-container">
+
+            <div class="product-card">
+                <img src="images/iced-tea.webp" alt="Gardenia iced tea — photo credit: Molly Tea gardenia iced tea image">
+                <p>Iced Tea</p>
             </div>
-     </footer>
+
+            <div class="product-card">
+                <img src="images/fruit-tea.webp" alt="Jasmine mango smoothie fruit tea — photo credit: Molly Tea jasmine mango image">
+                <p>Fruit Tea</p>
+            </div>
+
+            <div class="product-card">
+                <img src="images/snowy-jasmine.png" alt="Snowy Jasmine tea — photo credit: Molly Tea snowy jasmine image">
+                <p>Fresh Milk Tea</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-links">
+
+            <div>
+                <h2>MOLLY TEA</h2>
+            </div>
+
+            <div>
+                <h3>ABOUT US</h3>
+                <ul>
+                    <li>Our Story</li>
+                    <li>Why Choose Us</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>PRODUCTS & MENU</h3>
+                <ul>
+                    <li>Product Categories</li>
+                    <li>Featured Drinks</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>CONTACT</h3>
+                <ul>
+                    <li>Contact Form</li>
+                    <li>Franchise & Partner Opportunities</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <p>© 2025 Molly Tea | All Rights Reserved</p>
+        <p class="footer-credit">Image credits: Molly Tea premium jasmine milk tea image.</p>
+
+    </footer>
+
 </body>
+
 </html>
