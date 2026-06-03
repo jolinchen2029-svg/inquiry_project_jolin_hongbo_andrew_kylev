@@ -1,0 +1,156 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #111111;
+  font-weight: 600;
+}
+
+.navbar-search {
+  flex-grow: 0;
+}
+
+.navbar-search input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.navbar-search input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.site-footer {
+  background: #FFE4E1;
+  padding: 2rem 1.5rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.footer-content h3 {
+  margin: 0;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: #111111;
+}
+
+.footer-note {
+  width: 100%;
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+.pink-bg{
+  background-color: rgb(254, 200, 209);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  padding: 3rem 0;
+  box-sizing: border-box;
+} 
+
+.pink-tt{
+    color: pink;
+}
+
+.contact-main{
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.contact-card{
+  display: flex;
+  gap: 2rem;
+  max-width: 980px;
+  width: 100%;
+  background: #fff;
+  padding: 2.5rem;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.left{
+  flex: 1 1 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right{
+  flex: 0 0 40%;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-label{
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin: 0 0 0.25rem 0;
+}
+
+.form-input{
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+}
+
+.btn-submit{
+  background: #111;
+  color: #fff;
+  padding: 0.9rem 1rem;
+  border: none;
+  border-radius: 3px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.required{ color: #d9534f; }
+
