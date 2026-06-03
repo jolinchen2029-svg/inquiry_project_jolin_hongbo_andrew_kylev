@@ -188,8 +188,13 @@ button:hover {
 }
 
 .product-card {
-    width: min(240px, 100%);
+    flex: 1;
+    max-width: 260px;
+    min-width: 220px;
     padding: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: rgba(255, 255, 255, 0.92);
     border-radius: 28px;
     box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08);
@@ -197,8 +202,9 @@ button:hover {
 
 .product-card img {
     width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
     border-radius: 20px;
-    height: auto;
 }
 
 .product-card p {
