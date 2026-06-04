@@ -1,0 +1,172 @@
+html{
+    background-color: pink;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar-links {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tea-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.tea-img .product {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tea-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #222;
+    padding-top: 0.5rem;
+}
+
+.product-btn {
+  margin-top: 0.6rem;
+  padding: 0.45rem 0.9rem;
+  background: #ff7f9c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.product-btn:hover {
+  background: #ff5f7a;
+}
+
+.product-order-btn {
+  margin-top: 0.4rem;
+  padding: 0.45rem 0.9rem;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.product-order-btn:hover {
+  background: #111;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #111111;
+  font-weight: 600;
+}
+
+.navbar-search {
+  flex-grow: 0;
+}
+
+.navbar-search input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.navbar-search input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.site-footer {
+  background: #FFE4E1;
+  padding: 2rem 1.5rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.footer-content h3 {
+  margin: 0;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: #111111;
+}
+
+.footer-note {
+  width: 100%;
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+.pink-text{
+    display: flex;
+    justify-content: center;
+
+}
